@@ -11,9 +11,9 @@ spec:
     image: nginx:stable-perl
 ---
 apiVersion: v1
-kind: Pod-2
+kind: Pod
 metadata:
-  name: nginx-podss
+  name: pod-2
 spec:
   affinity:
     podAffinity:
